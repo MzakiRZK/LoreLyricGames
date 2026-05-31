@@ -24,3 +24,7 @@ a{
 a:hover{
     background:#333;
 }
+
+.qr-container{
+    display:flex;
+}
