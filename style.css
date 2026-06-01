@@ -93,8 +93,8 @@ a:hover {
 .banner {
     width: calc(100% + 40px);
     margin-left: -20px;
-    border-radius: 12px 12px 0 0;
-    margin-bottom: 0;
+    border-radius: 0 0 12px 12px;   
+    margin-top: 0;
     display: block;
 }
 
