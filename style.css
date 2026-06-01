@@ -9,15 +9,12 @@ body {
 }
 
 .cover {
-    width:140px;
-    height:140px;
-    border-radius:50%;
-    object-fit:cover;
-    display:block;
-    margin:30px auto 20px;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    object-fit: cover;
     display: block;
-    margin-bottom: 20px;
-    margin-top: 30px;       
+    margin: 30px auto 20px;
     border: 3px solid #111;
     position: relative;
     z-index: 1;
