@@ -74,9 +74,24 @@ a:hover {
 
 .support-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 15px;
-    margin: 15px 0;
+    grid-template-columns: 1fr;
+    gap: 25px;
+    margin: 20px 0;
+}
+
+.support-item {
+    text-align: center;
+    font-size: 13px;
+    color: #aaa;
+}
+
+.qr {
+    width: 100%;
+    max-width: 320px;
+    height: auto;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
 }
 
 .support-item {
