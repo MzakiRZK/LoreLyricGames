@@ -72,11 +72,13 @@ a:hover {
     margin: 0 0 10px;
 }
 
+/* Support section - 2 column grid */
 .support-grid {
     display: grid;
-    grid-template-columns: 1fr;
-    gap: 25px;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
     margin: 20px 0;
+    align-items: start;
 }
 
 .support-item {
@@ -85,30 +87,29 @@ a:hover {
     color: #aaa;
 }
 
-.qr {
-    width: 100%;
-    max-width: 320px;
-    height: auto;
-    border-radius: 10px;
-    display: block;
+/* Third item (MBSB) spans full width and centres itself */
+.support-item.full-width {
+    grid-column: 1 / -1;
+    max-width: 200px;
     margin: 0 auto;
 }
 
-.support-item {
-    text-align: center;
-    font-size: 13px;
-    color: #aaa;
-}
-
 .qr {
     width: 100%;
+    height: auto;
     border-radius: 10px;
+    display: block;
+    margin: 0 auto 6px;
+}
+
+.support-item p {
+    margin: 0;
 }
 
 .banner {
     width: calc(100% + 40px);
     margin-left: -20px;
-    border-radius: 0 0 12px 12px;   
+    border-radius: 0 0 12px 12px;
     margin-top: 0;
     display: block;
 }
